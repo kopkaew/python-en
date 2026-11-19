@@ -1,0 +1,16 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# virtual enviroment
+.venv/
+venv/
+
+#ไฟล์ฐานข้อมูล DuckDB - สร้างใหม่ได้จาก pipline จึงไม่เก็บใน Git
+target/
+logs/
+dbt_packages/
+.user.yml
+
+#Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+
